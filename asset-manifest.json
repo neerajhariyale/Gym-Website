@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Gym-Website/static/css/main.6aff9626.css",
+    "main.js": "/Gym-Website/static/js/main.74054eee.js",
+    "static/js/453.caeaf51d.chunk.js": "/Gym-Website/static/js/453.caeaf51d.chunk.js",
+    "static/media/main.jpg": "/Gym-Website/static/media/main.04d2d422bc80955f3225.jpg",
+    "static/media/greentick.png": "/Gym-Website/static/media/greentick.6ff208b1d620ecddac36.png",
+    "static/media/girl.jpg": "/Gym-Website/static/media/girl.ce6460c17c5072eda947.jpg",
+    "static/media/wallpaper.jpg": "/Gym-Website/static/media/wallpaper.676722d9d8c8e02de7f1.jpg",
+    "static/media/nitesh.jpg": "/Gym-Website/static/media/nitesh.dd13d49602d97c256d2d.jpg",
+    "static/media/gym.png": "/Gym-Website/static/media/gym.95f54683d67a8e1b19dd.png",
+    "static/media/smoothies.png": "/Gym-Website/static/media/smoothies.b9efa8ce6908c7f50d7b.png",
+    "static/media/dumbbell.png": "/Gym-Website/static/media/dumbbell.f119477aac3156456572.png",
+    "index.html": "/Gym-Website/index.html",
+    "main.6aff9626.css.map": "/Gym-Website/static/css/main.6aff9626.css.map",
+    "main.74054eee.js.map": "/Gym-Website/static/js/main.74054eee.js.map",
+    "453.caeaf51d.chunk.js.map": "/Gym-Website/static/js/453.caeaf51d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6aff9626.css",
+    "static/js/main.74054eee.js"
+  ]
+}
