@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
-import Details from "./components/Details";
-import ChooseUs from "./components/ChooseUs";
-import OurClasses from "./components/OurClasses";
+// import Details from "./components/Details";
+// import ChooseUs from "./components/ChooseUs";
+// import OurClasses from "./components/OurClasses";
 import Registration from "./components/Registration";
 import Plan from "./components/Plan";
 import Clients from "./components/Clients";
@@ -16,8 +16,8 @@ function App() {
 
       <main className="flex flex-col gap-12 md:gap-16">
        // <Details />
-        //<ChooseUs />
-        //<OurClasses />
+       //  <ChooseUs />
+       //  <OurClasses />
         <Registration />
         <Plan />
         <Clients />
