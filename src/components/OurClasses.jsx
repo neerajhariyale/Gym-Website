@@ -9,7 +9,7 @@ const OurClasses = () => {
         <p className='mt-4 font-bold text-xl mb-6'>WHAT WE CAN OFFER</p>
       </div>
 
-      <div className='w-full flex flex-wrap justify-center gap-6'>
+      <div className='w-full flex flex-wrap justify-center gap-6 md:flex-col'>
         {[  
           { name: 'Cardio', img: 'https://images.pexels.com/photos/3768916/pexels-photo-3768916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
           { name: 'Boxing', img: 'https://images.pexels.com/photos/1544774/pexels-photo-1544774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
