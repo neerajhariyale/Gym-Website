@@ -7,9 +7,9 @@ const Trainer = () => {
       <div className="w-16 border-2 border-yellow-500 mt-2"></div>
 
       {/* Trainer Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6 w-full max-w-4xl">
+      <div className="mt-6 w-10/12 m-auto flex flex-wrap justify-center gap-6">
         {/* Trainer 1 */}
-        <div className="flex flex-col h-72 w-full sm:w-64 border-2 p-4 justify-center items-center rounded-lg cursor-pointer hover:shadow-2xl transition duration-300">
+        <div className="flex flex-col flex-wrap h-72 w-9/12 sm:w-64 border-2 p-4 justify-center items-center rounded-lg cursor-pointer hover:shadow-2xl transition duration-300">
           <img 
             src="https://lh3.googleusercontent.com/pw/AP1GczMmVV5PfFzpv367grCArhQyRDiVzeE5ZmdNDe0Y3UNbcSh5uBTwIEZ6AjjU3jD6qni-nE-O24fqODhW9l3GetWMwLZVEIiu271Peq_qQRhNyA5KQtU85A1Rrs0uj1lXlkezg3fKnU7j0HnpmqFM4Fg=w716-h740-s-no-gm?authuser=0" 
             alt="Prateek V." 
@@ -22,7 +22,7 @@ const Trainer = () => {
         </div>
 
         {/* Trainer 2 */}
-        <div className="flex flex-col h-72 w-full sm:w-64 border-2 p-4 justify-center items-center rounded-lg cursor-pointer hover:shadow-2xl transition duration-300">
+        <div className="flex flex-col h-72 w-9/12 sm:w-64 border-2 p-4 justify-center items-center rounded-lg cursor-pointer hover:shadow-2xl transition duration-300">
           <img 
             src="https://assets.zeezest.com/images/PROD_Anupriya_0002_%20_1646993975930.jpg?w=1920&q=75" 
             alt="Anupriya Kapur" 

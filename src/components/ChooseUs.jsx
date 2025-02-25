@@ -16,7 +16,7 @@ const ChooseUs = () => {
 
       <div className='flex flex-wrap justify-center gap-6 w-full lg:flex-row'>
 
-        <div className='flex flex-col justify-center items-center border-2 hover:shadow-2xl h-80 sm:w-72 w-full p-4 gap-2 rounded-lg'>
+        <div className='flex flex-col justify-center items-center border-2 hover:shadow-2xl h-96 sm:w-72 w-9/12 p-4 gap-2 rounded-lg'>
             <div className='h-24 w-24 rounded-full flex justify-center items-center p-4 border border-black hover:bg-yellow-400'>
                 <img src={gym} alt="" className='h-20 w-20 object-contain'/>
             </div>
@@ -24,7 +24,7 @@ const ChooseUs = () => {
             <p className='p-2 text-center'>Modern gym equipment includes smart cardio machines with interactive screens and multifunctional strength training workouts.</p>
         </div>
 
-        <div className='flex flex-col justify-center items-center border-2 hover:shadow-2xl h-80 sm:w-72 w-full p-4 gap-2 rounded-lg'>
+        <div className='flex flex-col justify-center items-center border-2 hover:shadow-2xl h-96 sm:w-72 w-9/12 p-4 gap-2 rounded-lg'>
             <div className='h-24 w-24 rounded-full flex justify-center items-center p-4 border border-black hover:bg-yellow-400'>
                 <img src={juice} alt="" className='h-20 w-20 object-contain'/>
             </div>
@@ -32,7 +32,7 @@ const ChooseUs = () => {
             <p className='p-2 text-center'>A healthy nutrition plan includes balanced meals with lean proteins, whole grains, healthy fats, and plenty of fruits and vegetables.</p>
         </div>
 
-        <div className='flex flex-col justify-center items-center border-2 hover:shadow-2xl h-80 sm:w-72 w-full p-4 gap-2 rounded-lg'>
+        <div className='flex flex-col justify-center items-center border-2 hover:shadow-2xl h-96 sm:w-72 w-9/12 p-4 gap-2 rounded-lg'>
             <div className='h-24 w-24 rounded-full flex justify-center items-center p-4 border border-black hover:bg-yellow-400'>
                 <img src={dumbbell} alt="" className='h-20 w-20 object-contain'/>
             </div>
@@ -40,7 +40,7 @@ const ChooseUs = () => {
             <p className='p-2 text-center'>A professional training plan incorporates periodized workouts combining strength, endurance, and flexibility, tailored to specific goals.</p>
         </div>
 
-        <div className='flex flex-col justify-center items-center border-2 hover:shadow-2xl h-80 sm:w-72 w-full p-4 gap-2 rounded-lg'>
+        <div className='flex flex-col justify-center items-center border-2 hover:shadow-2xl h-96 sm:w-72 w-9/12 p-4 gap-2 rounded-lg'>
             <div className='h-24 w-24 rounded-full flex justify-center items-center p-4 border border-black hover:bg-yellow-400'>
                 <img src={heart} alt="" className='h-20 w-20 object-contain'/>
             </div>

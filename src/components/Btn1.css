@@ -1,5 +1,5 @@
 .btn1 {
-    width: 8.5em;
+    width: 8.9em;
     height: 2.3em;
     margin: 0.5em;
     background: rgba(89, 103, 110, 0.653);
@@ -12,15 +12,39 @@
     position: absolute;
     z-index: 1;
     overflow: hidden;
-    margin-top: 29rem;
-    margin-left: 39rem;
-   }
-   
-   button:hover {
-    color: rgb(26, 26, 26)
-   }
-   
-   button:after {
+    margin-top: 16rem;
+    margin-left: 2rem;
+}
+
+
+
+/* Mobile screens */
+@media (max-width: 768px) {
+    .btn1 {
+        width: 7em;
+        height: 1.9em;
+        font-size: 16px;
+        top: 12rem;
+        left: 1.9rem;
+    }
+}
+
+/* Small mobile screens */
+@media (max-width: 480px) {
+    .btn1 {
+        width: 9.5em;
+        height: 1.8em;
+        font-size: 14px;
+        margin-top: -3rem;
+        margin-left: 5rem;
+    }
+}
+
+.btn1:hover {
+    color: rgb(26, 26, 26);
+}
+
+.btn1::after {
     content: "";
     background: rgb(95, 92, 92);
     position: absolute;
@@ -31,10 +55,9 @@
     bottom: 0;
     transform: skewX(-45deg) scale(0, 1);
     transition: all 0.5s;
-   }
-   
-   button:hover:after {
+}
+
+.btn1:hover::after {
     transform: skewX(-45deg) scale(1, 1);
-    -webkit-transition: all 0.5s;
     transition: all 0.5s;
-   }
+}
