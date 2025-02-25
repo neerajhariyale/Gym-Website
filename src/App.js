@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
 import Details from "./components/Details";
 import ChooseUs from "./components/ChooseUs";
 import OurClasses from "./components/OurClasses";
@@ -11,26 +11,21 @@ import Copyright from "./components/Copyright";
 
 function App() {
   return (
-    <div className="max-w-full min-w-screen h-screen  overflow-x-hidden bg-scroll no-scrollbar ">
-      <Navbar/>
-      
-      <Details />
+    <div className="w-full min-h-screen overflow-x-hidden bg-scroll no-scrollbar">
+      <Navbar />
 
-      <ChooseUs/>
+      <main className="flex flex-col gap-12 md:gap-16">
+        <Details />
+        <ChooseUs />
+        <OurClasses />
+        <Registration />
+        <Plan />
+        <Clients />
+        <Trainer />
+      </main>
 
-      <OurClasses/>
-
-      <Registration/>
-
-      <Plan/>
-
-      <Clients/>
-      
-      <Trainer/>
-
-      <Footer/>
-
-      <Copyright/>
+      <Footer />
+      <Copyright />
     </div>
   );
 }
