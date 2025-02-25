@@ -7,14 +7,14 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <div className="w-11/12 h-auto flex flex-col justify-center items-center mx-auto mb-8">
-      <div className="w-full object-cover flex border-2 bg-yellow-400">
-        <img src={footerImage} alt="" className="object-cover w-full h-48 md:h-auto" />
+      <div className="w-full object-contain flex border-2 bg-yellow-400">
+        <img src={footerImage} alt="" className=" w-full h-48 object-contain" />
       </div>
 
       <p className="text-center mt-8 font-bold text-3xl">GYM LOVER</p>
       <div className="border-2 border-yellow-400 w-24"></div>
 
-      <div className="flex flex-col md:flex-row justify-around w-full mt-8 px-4 text-center md:text-left">
+      <div className="flex flex-col md:flex-row justify-around w-full mt-8 px-4  md:text-left">
         <div className="flex flex-col gap-2 mb-4 md:mb-0">
           <p className="cursor-pointer font-semibold hover:border-b-2 w-max hover:border-b-gray-600">GYM LOVER</p>
           <p>Pushing limits and chasing gains, the gym is my playground where strength reigns.</p>
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-4 mb-4 md:mb-0">
+        <div className="flex flex-col gap-3 mb-4 md:mb-0">
           <h2 className="cursor-pointer font-semibold hover:border-b-2 w-max hover:border-b-gray-600">Address</h2>
           <div>
             <p><span className="font-bold">Branch 1:</span> C-25, Bittan Market, Bhopal 462016</p>
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-2">
           <h2 className="cursor-pointer font-semibold hover:border-b-2 w-max hover:border-b-gray-600">Support</h2>
           <div>
             <p>Contact</p>
