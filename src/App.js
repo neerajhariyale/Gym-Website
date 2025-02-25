@@ -15,9 +15,9 @@ function App() {
       <Navbar />
 
       <main className="flex flex-col gap-12 md:gap-16">
-        <Details />
-        <ChooseUs />
-        <OurClasses />
+       // <Details />
+        //<ChooseUs />
+        //<OurClasses />
         <Registration />
         <Plan />
         <Clients />
